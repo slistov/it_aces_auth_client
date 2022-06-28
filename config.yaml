@@ -1,0 +1,14 @@
+OAUTH:
+  URL: "https://oauth.itwarriors.ru"
+  API:
+    LOGIN: "/api/oauth/login"
+    AUTHORIZE: "/api/oauth/authorize"
+    TOKEN: "/api/oauth/token"
+    TOKEN_INFO: "/api/oauth/token_info"
+    USER_INFO: "/api/oauth/user_info"
+
+
+#############################################
+#                LOGGING                    #
+#############################################
+ERROR_LOG_FILENAME: "auth_client.log"
