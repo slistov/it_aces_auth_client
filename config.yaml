@@ -1,5 +1,16 @@
+###########################################
+#               ENDPOINTS                 #
+###########################################
+GET_USER_TOKEN: "/api/oauth/user/token"
+AUTHORIZATIONS: "/api/oauth/authorizations"
+
+
+###########################################
+#        OAuth service parameters         #
+###########################################
 OAUTH:
-  URL: "https://oauth.itwarriors.ru"
+  #URL: "https://oauth.itwarriors.ru"
+  URL: "http://127.0.0.1:8000"
   API:
     LOGIN: "/api/oauth/login"
     AUTHORIZE: "/api/oauth/authorize"
